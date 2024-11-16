@@ -1,0 +1,42 @@
+.pop-up-overlay {
+  /* height: calc(100vh - 80px); */
+  height: 100vh;
+  /* margin-top: 80px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #457B9D;
+  padding: 20px;
+}
+
+.report-container {
+  height: fit-content;
+  padding: 40px;
+  width: 35rem;
+  background-color: #A8DADC;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: black;
+}
+
+.report-container h2 {
+  text-align: center;
+  padding: 0 0 20px 0;
+  font-size: 2rem;
+}
+
+.report-content {
+  display: flex;
+  gap: 10px;
+  font-size: 1.1rem;
+  padding-bottom: 5px;
+  border-bottom: 1.5px solid black;
+}
+
+.report-content p:first-child {
+  font-weight: 600;
+}

@@ -1,0 +1,89 @@
+.diagnose-questions-main-container {
+  /* height: calc(100vh - 80px); */
+  height: fit-content;
+  margin-top: 80px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  /* background-color: #ced4da; */
+  background-color: #adb5bd;
+}
+
+.diagnose-main-form-container {
+  height: fit-content;
+  padding-bottom: 50px;
+}
+
+.diagnose-questions-main-form {
+  height: fit-content;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px black;
+  /* background-color: #adb5bd; */
+  background-color: #dee2e6;
+  /* color: #dee2e6; */
+}
+
+.diagnose-questions-header {
+  text-align: center;
+}
+
+.diagnose-questions-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 20px;
+}
+
+.diagnose-question-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.diagnose-question-option {
+  display: flex;
+  gap: 10px;
+}
+
+.diagnose-question-option label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 15px;
+  border: 1px solid #212529;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+
+/* Hide radio input */
+.radio-input-options {
+  display: none;
+}
+
+/* When "Yes" or "No" is checked, apply styles to the corresponding label */
+.diagnose-question-option input:checked + label {
+  background-color: #3a3a3a;
+  border-color: green;
+  color: #dee2e6;
+}
+
+.diagnose-question-submit {
+  margin-bottom: 10px;
+}
+
+.diagnose-question-option select {
+  padding: 5px;
+}
+
+.number-input{
+  border: none;
+  outline: none;
+  padding: 5px;
+  border: 1px solid black;
+}

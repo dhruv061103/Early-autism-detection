@@ -1,0 +1,84 @@
+.diagnose-main-container {
+  height: calc(100vh - 80px);
+  margin-top: 80px;
+  background-color: #457B9D;
+}
+
+.diagnose-user-detail-form {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  /* height: 100%; */
+}
+
+.diagnose-form {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #343a40;
+  box-shadow: 0 0 10px #343a40;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #f1faeec4;
+  color: black;
+}
+
+.diagnose-form-header {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.diagnose-form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.diagnose-form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.diagnose-form-input input {
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+.diagnose-input-label::after{
+    content: "*";
+    display: inline;
+    padding-left: 2px;
+    color: red;
+}
+
+.diagnose-error {
+  padding-top: 0;
+}
+
+.diagnose-form-gender-options{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.diagnose-option-label{
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.diagnose-form-submit{
+  width: 100%;
+  padding: 5px;
+  display: flex;
+}
+
+.diagnose-submit-btn{
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+}

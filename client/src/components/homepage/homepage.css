@@ -1,0 +1,126 @@
+* {
+  /* top: 0; */
+  /* left: 0; */
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.homepage-container {
+  width: 100vw;
+  height: calc(100vh - 80px);
+  margin-top: 80px;
+  /* background-color: #6c757d; */
+  background-color: #a8dadc;
+  position: relative;
+  /* padding-bottom: 200px; */
+}
+
+.homepage-image-slider-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px #343a40;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.homepage-hero-container {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 20rem;
+  background-color: #343a407f;
+  font-size: 1.4rem;
+  padding: 15px;
+  /* background: rgba(255, 255, 255, 0.2); */
+  background-color: #f1faee82;
+  border-radius: 6px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.homepage-container .hero-heading {
+  font-weight: 550;
+}
+
+.homepage-features-section {
+  width: 100vw;
+  /* height: calc(100vh); */
+  height: fit-content;
+  padding: 80px;
+  background-color: #457b9d96;
+}
+
+.feature-section-container {
+  display: flex;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+
+.feature-first-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  border-radius: 10px;
+}
+
+.feature-first-section h2 {
+  font-size: 1.8rem;
+}
+
+.feature-first-section p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.disclaimer {
+  color: #e63946;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  font-size: 1.2rem;
+}
+.disclaimer::after,
+.disclaimer::before {
+  content: "";
+  height: 2px;
+  width: 100%;
+  display: flex;
+  background-color: #e63946;
+}
+
+.homepage-graph-section {
+  width: 100vw;
+  /* height: calc(100vh); */
+  padding: 80px;
+  background-color: #f1faee;
+}
+
+.about-section-container {
+  display: flex;
+  gap: 50px;
+}
+
+.about-first-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-first-section h2 {
+  font-size: 1.8rem;
+}
+
+.about-first-section p {
+  text-align: justify;
+  font-size: 1.2rem;
+}
